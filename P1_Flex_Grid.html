@@ -1,29 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .contenedor{
+        .contenedor {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
         }
-        .card{
-            width:80px;
+
+        .card {
+            width: 80px;
             padding: 20px;
             margin: 20px;
-            
+
         }
-        .card-larga{
+
+        .card-larga {
             grid-column: 3;
             grid-row: span 2;
-           
+
             display: flex;
             flex-direction: column;
         }
-    </style>    
+    </style>
 </head>
+
 <body>
     <div class="contenedor">
         <div class="card" style="background-color: rgb(79, 29, 125);">CARS 1</div>
@@ -36,4 +40,5 @@
 
     </div>
 </body>
+
 </html>
