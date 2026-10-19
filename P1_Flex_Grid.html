@@ -1,39 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .contenedor{
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-        }
-        .card{
-            width:80px;
-            padding: 20px;
-            margin: 20px;
-            
-        }
-        .card-larga{
-            grid-column: 3;
-            grid-row: span 2;
-           
-            display: flex;
-            flex-direction: column;
-        }
-    </style>    
+    <title>CV Angel Erick Galvan Carrasco</title>
 </head>
-<body>
-    <div class="contenedor">
-        <div class="card" style="background-color: rgb(79, 29, 125);">CARS 1</div>
-        <div class="card" style="background-color: rgb(5, 136, 107);">CARS 2</div>
-        <div class="card-larga" style="background-color: rgb(136, 5, 5);">CARS 3</div>
-        <div class="card" style="background-color: rgb(0, 13, 90);">CARS 4</div>
-        <div class="card" style="background-color: rgb(2, 148, 43);">CARS 5</div>
-        <div class="card" style="background-color: rgb(203, 8, 224);">CARS 6</div>
-        <div class="card" style="background-color: rgb(236, 249, 1);">CARS 7</div>
 
+<body>
+    <div class="cv">
+        <header class="encabezado" style="background-color: rgb(193, 0, 0); display: flex;">
+            <div class="foto">
+                <img src="img/Joji.jpg" alt="Dui"
+                    style="padding: 20px 80px 20px; width: 150px; height: 200px; border-radius: 50%; ;">
+            </div>
+            <div class="informacion-personal" style="padding: 20px;">
+                <h1>Dui</h1>
+                <h2>Ingeniero en Sistemas</h2>
+            </div>
+        </header>
+        <main class="contenido" style="display: grid; grid-template-columns: 35% 65%;">
+            <div class="columna-izquierda" style="background-color: rgb(204, 72, 72);padding: 20px;">
+                <section>
+                    <h3>Contacto</h3>
+                    <ul>
+                        <li>52 442 123 4567</li>
+                        <li>joji@example.com</li>
+                        <li>www.joji.com</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Habilidades</h3>
+                    <ul>
+                        <li>Adaptabilidad de Marca</li>
+                        <li>Comunicación</li>
+                        <li>Eficiente</li>
+                        <li>Creatividad</li>
+                        <li>Ejecucion en vivo de alto nivel</li>
+                        <li>Artista</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Educación</h3>
+                    <ul>
+                        <li>Formacion Autodidacta</li>
+                        <p>Creacion de Contenido Digital y Comunicacion Online</p>
+                        <p>2008 - 2017</p>
+                        <li>Formacion Autodidacta</li>
+                        <p>Produccion Musical y Composicion</p>
+                        <p>2011 - Presente</p>
+                    </ul>
+                </section>
+            </div>
+            <div class="columna-derecha" style="background-color: rgb(218, 11, 0); padding: 20px;">
+                <section>
+                    <h3>Acerca de mi</h3>
+                    <p>Nacido en Osaka, Japón, y criado entre Tokio y Estados Unidos, soy un artista, músico
+                        y creador multidisciplinario conocido por mi proyecto Joji. Comencé mi carrera en
+                        internet explorando el humor absurdo y el surrealismo, y con el tiempo transformé esa
+                        energía en música introspectiva, melancólica y experimental.
+                    </p>
+                    <p>Soy pianista, bailarín y compositor. Me apasiona crear atmósferas emocionales que conecten
+                        con la gente. He aprendido tanto en escenarios como en la calle, y eso me ha dado una
+                        perspectiva
+                        única sobre el arte, la fama y la vulnerabilidad.
+                    </p>
+                    <p>Actualmente sigo explorando nuevos sonidos, colaborando con artistas de todo el mundo y buscando
+                        siempre la manera de sorprender a mi audiencia.
+                    </p>
+
+                </section>
+                <section>
+                    <h3>Experiencia</h3>
+                    <ul>
+                        <li>Músico / Cantante / Productor</li>
+                        <p>88rising / Palace Creek</p>
+                        <p>2017 – Presente</p>
+                        <p>Debuté con el EP In Tongues (2017), sentando las bases de un estilo melancólico y
+                            experimental.
+                            Mi primer álbum, BALLADS 1 (2018), alcanzó el puesto 3 del Billboard 200 y me convirtió en
+                            el
+                            primer artista asiático en liderar la lista R&B/Hip-Hop de Billboard. Le siguieron Nectar
+                            (2020),
+                            SMITHEREENS (2022) y Piss In The Wind (2026).
+                        </p>
+                        <p>
+                            El sencillo “Slow Dancing in the Dark” obtuvo certificación 5× Platino de la RIAA, y
+                            “Glimpse of Us”
+                            (2022) alcanzó el número 1 global en Spotify. He completado giras mundiales como OBLIVION y
+                            PANDEMONIUM,
+                            con presentaciones en Madison Square Garden, Barclays Center y Gunnersbury Park de Londres.
+                            En 2026 inicié
+                            el SOLARIS TOUR.
+                        <p>
+                            <li>Ingeniero de software</li>
+                        <p>Empresa ABC</p>
+                        <p>2015 - 2020</p>
+                        <p>lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor
+                            sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+                        li>Gerente de proyectos</li>
+                        <p>Empresa DEF</p>
+                        <p>2020 - Presente</p>
+                        <p>lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod
+                    </ul>
+                </section>
+            </div>
+        </main>
     </div>
 </body>
+
 </html>
